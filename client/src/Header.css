@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .auth-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .signed-in {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1em;
+  }
+  
+  .login-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .login-link:hover {
+    background-color: white;
+    color: #007bff;
+  }
+  
+  .signout-button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .signout-button:hover {
+    background-color: white;
+    color: #007bff;
+  }
+  

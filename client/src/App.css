@@ -1,0 +1,59 @@
+/* App.css */
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: #f0f2f5;
+    min-height: 100vh;
+  }
+  
+  .join-room, .game-room {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .audio-player {
+    margin: 20px 0;
+  }
+  
+  .guess-section {
+    margin: 20px 0;
+  }
+  
+  .result {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .room-info {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
